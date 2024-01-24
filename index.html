@@ -36,14 +36,15 @@
 	<div class="main-nav">
 		<div class="container">
 			<header class="group top-nav">
+				<!-- <div class="navigation-toggle" data-tools="navigation-toggle" data-target="#navbar-1">
+					<span class="logo"></span>
+				</div> -->
+
 				<div class="navigation-toggle" data-tools="navigation-toggle" data-target="#navbar-1">
-					<span style="background-color: #f0eadb;" class="logo"></span>
+					<span style="background-color: #f0eadc;"><i class="fa-solid fa-bars"></i></span>
 				</div>
 				
 				<nav id="navbar-1" class="navbar item-nav">
-					<!-- <div style="display: inline-block;">
-						<img width="200" height="200" src="/img/TRAXBAY.png" alt="">
-					</div> -->
 					<ul>
 						<li class="active"><a href="#about">About me </a></li>
 						<li><a href="#experiences">Experience </a></li>
@@ -196,7 +197,7 @@
 		function newTyped() { } $(function () {
 			$("#typed").typed({
 				// Change to edit type effect
-				strings: ["SOFTWARE ENGINEER", "FULL STACK WEB DEVELOPER", "POWER PLAFTORM DEVELOPER"],
+				strings: ["Software Engineer", "Full Stack Web Developer", "Power Platform Developer", "Wordpress Developer"],
 
 				typeSpeed: 90, backDelay: 700, contentType: "html", loop: !0, resetCallback: function () { newTyped() }
 			}), $(".reset").click(function () { $("#typed").typed("reset") })
