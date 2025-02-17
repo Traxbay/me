@@ -1,4 +1,7 @@
-
+.top-nav {
+  width: 700px;
+  align-items: center;
+}
 
 body {
   background-color: #f0eadc; /* primary color */
@@ -118,11 +121,15 @@ a:hover {
   }
 }
 
+
+
 .main-nav {
-  /* background: white; */
-  /* border-bottom: 1px dashed; */
-  padding-top: 23px;
-  border-bottom: 30px solid #de4e41;;
+  background: white;
+  padding-top: 10px;
+  border-bottom: 30px solid #de4e41;
+  position: relative;
+  width: 100%;
+  background-color: #f0eadc;
 }
 
 .main-nav nav ul li a {
@@ -252,6 +259,6 @@ footer .social li {
 }
 
 footer .social li a {
-  font-size: 1.25em;
+  font-size: 1.90em;
   color: #999999;
 }
